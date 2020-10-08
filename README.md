@@ -12,11 +12,21 @@
 - run 
   
         npm install
+
+- Make a file keys.js in server folder
+- Make a account in [Mongodb Atlas](https://account.mongodb.com/account/login)
+-  Add this in keys.js
+     
+        module.exports = {
+        MONGOURI: '<atlas key>',
+        JWT_SECRET: '<secret key can be any thing>',
+        };
+
 - To start the server
 
         npm start
 
-- use this to view in browser 
+- use localhost 3000 to view in browser 
 
         http://localhost:3000
 
