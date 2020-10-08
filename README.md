@@ -10,8 +10,12 @@
 - Clone this repo
 - Open Up both [Client](https://github.com/kiranmurali93/instaclone/tree/main/client) and [Server](https://github.com/kiranmurali93/instaclone/tree/main/server) in the terminal
 - run 
-        
+  
+        npm install
+- To start the server
+
         npm start
+
 - use this to view in browser 
 
         http://localhost:3000
